@@ -28,8 +28,9 @@ const nextConfig = {
     parallelServerCompiles: true,
   },
   output: 'export',
-  basePath: '',
-  assetPrefix: '',
+  basePath: '/smehdim.github.io',
+  assetPrefix: '/smehdim.github.io/',
+  trailingSlash: true,
 }
 
 if (userConfig) {
